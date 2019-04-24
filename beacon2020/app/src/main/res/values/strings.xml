@@ -8,6 +8,7 @@
     <string name="close">Close</string>
     <string name="title_activity_settings">Settings</string>
     <string name="facebook_app_id">401882627269496</string>
+    <string name="facebook_login_protocol_name">fb401882627269496</string>
 
     <!-- Strings related to Settings -->
 

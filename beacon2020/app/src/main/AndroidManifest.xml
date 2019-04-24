@@ -17,6 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
         <activity android:name=".FavouriteActivity"></activity>
         <activity android:name=".HistoryActivity"  android:windowSoftInputMode="adjustPan"/>
         <activity android:name=".UpdatePassword" />
@@ -27,18 +30,17 @@
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <!--<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>-->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"
             android:launchMode="singleInstance" />
-        <provider android:authorities="com.facebook.app.FacebookContentProvider{401882627269496}"
-            android:name="com.facebook.FacebookContentProvider"
-            android:exported="true"/>
         <activity
             android:name=".SettingScreen"
             android:label="Settings" />
+        <provider android:authorities="com.facebook.app.FacebookContentProvider401882627269496"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
     </application>
 
 </manifest>
