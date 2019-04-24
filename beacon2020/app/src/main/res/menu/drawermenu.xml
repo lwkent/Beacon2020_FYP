@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"/>
+    <item android:id="@+id/menuProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_round_account_circle_24px"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@drawable/ic_round_settings_24px"
+        android:orderInCategory="200"
+        />
+    <item android:id="@+id/favouriteView"
+        android:title="Favourite"
+        android:icon="@drawable/ic_round_favorite_24px"
+        android:orderInCategory="300"/>
+    <item android:id="@+id/historyview"
+        android:title="History"
+        android:icon="@drawable/ic_round_history_24px"
+        android:orderInCategory="300"/>
+    <item android:id="@+id/menuLogout"
+        android:icon="@drawable/ic_round_exit_to_app_24px"
+        android:title="Logout"
+        android:orderInCategory="400"/>
+</menu>
